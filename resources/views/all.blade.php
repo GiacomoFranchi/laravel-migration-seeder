@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="d-flex align-items-center justify-content-evenly my-3">
-    <h1>TRAIN SEEKER</h1>
-    <button>
-        <a href="/all">Tutti I Viaggi</a>
-    </button>
-</div>
+    <div class="d-flex align-items-center justify-content-evenly my-3">
+        <h1>TRAIN SEEKER</h1>
+        <button>
+            <a href="/">Viaggi Di Oggi</a>
+        </button>
+    </div>
     <div class="container mt-5">
         <div class="row row-col-4">
             @foreach ($trains as $train)
